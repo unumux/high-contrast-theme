@@ -1,0 +1,26 @@
+// =============================================================================
+// opacity variables - text specific
+// =============================================================================
+$opacity-primary: 0.87;
+$opacity-secondary: 0.54;
+$opacity-hint: 0.38;
+$opacity-divider: 0.12;
+
+$opacity-primary-inverted: 1;
+$opacity-secondary-inverted: 0.70;
+$opacity-hint-inverted: 0.50;
+$opacity-divider-inverted: 0.12;
+
+// =============================================================================
+// text color variables
+// =============================================================================
+
+$color-text-primary: rgba($color-black, $opacity-primary);
+$color-text-secondary: rgba($color-black, $opacity-secondary);
+$color-text-hint: rgba($color-black, $opacity-hint);
+$color-text-divider: rgba($color-black, $opacity-divider);
+
+$color-text-primary-inverted: rgba($color-white, $opacity-primary-inverted);
+$color-text-secondary-inverted: rgba($color-white, $opacity-secondary-inverted);
+$color-text-hint-inverted: rgba($color-white, $opacity-hint-inverted);
+$color-text-divider-inverted: rgba($color-white, $opacity-divider-inverted);

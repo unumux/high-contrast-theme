@@ -1,0 +1,23 @@
+// =============================================================================
+// main palette //middle colors
+// =============================================================================
+
+//----- Theme Specific -----//
+$color-base: $color-white !default; //used the most such as the site background
+$color-primary: $color-charcoal !default; //the most used branding color
+$color-secondary: $color-silver !default;  //the second most used branding color
+$color-accent: $color-pewter !default;  //highlights actionable/important items
+
+//----- Interface Feedback Specific -----//
+//standard interface element feedback variables
+$color-feedback-primary: $color-white !default;
+$color-feedback-disabled: $color-silver !default;
+$color-feedback-neutral: $color-pewter !default; //shows interaction point - provides neutral info that does not influnce a user with color
+$color-feedback-positive: $color-ocean !default; //positive feedback, success msg & yes btns
+$color-feedback-negative: $color-apple !default; //negative feedback - fail msg & no btns
+
+
+
+$color-text-heading: $color-charcoal;
+$color-text-subheading: $color-pewter;
+$color-text-content: $color-charcoal;

@@ -1,0 +1,56 @@
+// =============================================================================
+// common colors by component or item
+// =============================================================================
+
+/*
+    negative space is portions of the site/page left unmarkedn or the space around or between components
+*/
+$color-negative-space: $color-base !default;
+$color-negative-space-invert: #000 !default;
+
+// links
+$color-link: $color-accent;
+$color-link-hover: rgba($color-accent, .5); // (!) meh whatever... what would we do here.
+$color-link-visited: darken($color-accent, 20%);
+
+// messages
+// (!) is this message text or background or either?
+$color-message: $color-base;
+$color-success: $color-feedback-positive;
+$color-warning: $color-feedback-negative;
+$color-important: $color-primary;
+$color-notice: $color-feedback-neutral;
+
+// content, highlight and error
+// (!) what's content? is the similar to message
+$color-content-background: $color-primary !default;
+$color-content-border: $color-secondary !default;
+$color-content-text: $color-text-content !default;
+$color-content-icon: $color-accent !default;
+
+$color-highlight-background: $color-feedback-positive !default;
+$color-highlight-border: $color-feedback-positive !default;
+$color-highlight-text: $color-text-content !default;
+$color-highlight-icon: $color-text-content !default;
+
+$color-error-background: $color-feedback-negative !default;
+$color-error-border: $color-feedback-negative !default;
+$color-error-text: $color-text-content !default;
+$color-error-icon: $color-text-content !default;
+
+// clickable does not include anchors
+// includes tabs, dropdowns, buttons, range slider handles
+$color-clickable-default-background: $color-base !default;
+$color-clickable-default-border: $color-base !default;
+$color-clickable-default-text: $color-base !default;
+$color-clickable-default-icon: $color-base !default;
+
+$color-clickable-active-background: $color-base !default;
+$color-clickable-active-border: $color-base !default;
+$color-clickable-active-text: $color-base !default;
+$color-clickable-active-icon: $color-base !default;
+
+$color-clickable-hover-background: $color-base !default;
+$color-clickable-hover-border: $color-base !default;
+$color-clickable-hover-text: $color-base !default;
+$color-clickable-hover-icon: $color-base !default;
