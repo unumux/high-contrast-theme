@@ -1,6 +1,2 @@
-// RENAME TO theme-high-contrast
-
-// (!) = needs work
-@import "./colors/descriptive-colors";
-@import "./colors/theme-palette";
-@import "./colors/components";
+@import "./base-elements/index";
+@import "./colors/index";

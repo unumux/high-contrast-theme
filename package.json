@@ -1,5 +1,5 @@
 {
-  "name": "high-contrast-theme",
+  "name": "theme-high-contrast",
   "version": "1.0.0",
   "description": "the high contrast theme",
   "main": "index.js",
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/unumux/high-contrast-theme.git"
+    "url": "git+https://github.com/unumux/theme-high-contrast.git"
   },
   "author": "Sara Kennedy <slkennedy@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/unumux/high-contrast-theme/issues"
+    "url": "https://github.com/unumux/theme-high-contrast/issues"
   },
-  "homepage": "https://github.com/unumux/high-contrast-theme#readme"
+  "homepage": "https://github.com/unumux/theme-high-contrast#readme"
 }
