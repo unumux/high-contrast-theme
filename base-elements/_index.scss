@@ -8,12 +8,26 @@ html {
   box-sizing: inherit;
 }
 
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: $color-negative-space;
     color: $color-text-content; /* this is from theme-palette - should it be? */
     font-family: $font-family-base;
     font-size: $font-size-base;
     line-height: $line-height-base;
+}
+
+h1  {
+    font-size: 10px;
+}
+
+h2 {
+    font-size: 1.5em;
 }
 
 h1, h2 {
