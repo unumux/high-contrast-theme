@@ -1,4 +1,21 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
 body {
-    font-family: $font-family-primary;
-    font-size: 15px;
+    background-color: $color-negative-space;
+    color: $color-text-content; /* this is from theme-palette - should it be? */
+    font-family: $font-family-base;
+    font-size: $font-size-base;
+    line-height: $line-height-base;
+}
+
+h1, h2 {
+    font-family: $font-family-secondary;
 }
