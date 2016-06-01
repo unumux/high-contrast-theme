@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/unumux/theme-enterprise-high-contrast/issues"
   },
-  "homepage": "https://github.com/unumux/theme-enterprise-high-contrast#readme"
+  "homepage": "https://github.com/unumux/theme-enterprise-high-contrast#readme",
+  "devDependencies": {
+    "typesettings": "3.0.1"
+  }
 }
