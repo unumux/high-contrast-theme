@@ -1,19 +1,19 @@
 {
-  "name": "theme-high-contrast",
+  "name": "theme-enterprise-high-contrast",
   "version": "1.0.0",
-  "description": "the high contrast theme",
+  "description": "the high contrast theme with enterprise fonts",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/unumux/theme-high-contrast.git"
+    "url": "git+https://github.com/unumux/theme-enterprise-high-contrast.git"
   },
   "author": "Sara Kennedy <slkennedy@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/unumux/theme-high-contrast/issues"
+    "url": "https://github.com/unumux/theme-enterprise-high-contrast/issues"
   },
-  "homepage": "https://github.com/unumux/theme-high-contrast#readme"
+  "homepage": "https://github.com/unumux/theme-enterprise-high-contrast#readme"
 }
