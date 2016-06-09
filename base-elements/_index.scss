@@ -20,7 +20,6 @@ body {
 body {
     color: $color-text-content; /* this is from theme-palette - should it be? */
     font-family: $font-family-base;
-    font-size: $font-size-base;
     @include setLeading();
 }
 

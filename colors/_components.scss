@@ -3,7 +3,7 @@
 // =============================================================================
 
 /*
-    negative space is portions of the site/page left unmarkedn or the space around or between components
+negative space is portions of the site/page left unmarkedn or the space around or between components
 */
 $color-negative-space: $color-base !default;
 $color-negative-space-invert: #000 !default;
@@ -23,7 +23,7 @@ $color-notice: $color-feedback-neutral;
 
 // content, highlight and error
 // (!) what's content? is the similar to message
-$color-content-background: $color-primary !default;
+$color-content-background: $color-base !default;
 $color-content-border: $color-secondary !default;
 $color-content-text: $color-text-content !default;
 $color-content-icon: $color-accent !default;
