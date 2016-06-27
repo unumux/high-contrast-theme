@@ -18,7 +18,7 @@ body {
 }
 
 body {
-    color: $color-text-content; /* this is from theme-palette - should it be? */
+    color: $component-text-content; /* this is from theme-palette - should it be? */
     font-family: $font-family-base;
     @include setLeading();
 }

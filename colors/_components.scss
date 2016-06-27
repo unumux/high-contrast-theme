@@ -1,56 +1,152 @@
 // =============================================================================
-// common colors by component or item
+//      COMPONENT PARTS
 // =============================================================================
 
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+//      TEXT
+//      Maybe we can take text out of these var names????
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+$component-text-heading: $color-text-accent !default;
+$component-text-subheading: $color-text-secondary !default;
+$component-text-content: $color-text-primary !default;
+$component-text-content-inverse: $color-text-primary-inverse !default;
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+//      CONTENT CONTAINER
+//      headers, dialogues/modals
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+// >>>>>>>>> Primary Content Containers
+$component-content-background: $color-base !default;
+$component-content-border: $color-base !default;
+$component-content-text: $component-text-content !default;
+
+// >>>>>>>>> Accent Content Containers
+$component-content-accent-background: $color-primary !default;
+$component-content-accent-border: $color-primary !default;
+$component-content-accent-text: $color-text-primary-inverse !default;
+
+// >>>>>>>>> Positive Content Containers
+$component-content-positive-background: $color-feedback-info-positive !default;
+$component-content-positive-border: $color-feedback-info-positive !default;
+$component-content-positive-text: $color-text-primary !default;
+
+
+// >>>>>>>>> Negative Feedback Content Containers
+$component-content-negative-background: $color-feedback-info-negative !default;
+$component-content-negative-border: $color-feedback-info-negative !default;
+$component-content-negative-text: $color-text-primary !default;
+
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+//      CLICKABLES
+//      does not include anchors
+//      includes tabs, dropdowns, buttons, range slider handles
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+// >>>>>>>>> Primary Clickables
+$component-clickable-background: $color-feedback-action-primary !default;
+$component-clickable-border: $color-feedback-action-primary !default;
+$component-clickable-text: $color-text-primary-inverse !default;
+
+$component-clickable-background-hover: lighten($color-feedback-action-primary, 5%) !default;
+$component-clickable-border-hover: lighten($color-feedback-action-primary, 5%) !default;
+$component-clickable-text-hover: $color-text-primary-inverse !default;
+
+$component-clickable-background-active: darken($color-feedback-action-primary, 5%) !default;
+$component-clickable-border-active: darken($color-feedback-action-primary, 5%) !default;
+$component-clickable-text-active: darken($color-text-primary-inverse, 5%) !default;
+
+// >>>>>>>>> Neutral Clickables
+$component-clickable-neutral-background: $color-feedback-action-neutral !default;
+$component-clickable-neutral-border: $color-feedback-action-neutral !default;
+$component-clickable-neutral-text: $color-text-primary-inverse !default;
+
+$component-clickable-neutral-background-hover: lighten($color-feedback-action-neutral, 5%) !default;
+$component-clickable-neutral-border-hover: lighten($color-feedback-action-neutral, 5%) !default;
+$component-clickable-neutral-text-hover: $color-text-primary-inverse !default;
+
+$component-clickable-neutral-background-active: darken($color-feedback-action-neutral, 5%) !default;
+$component-clickable-neutral-border-active: darken($color-feedback-action-neutral, 5%) !default;
+$component-clickable-neutral-text-active: darken($color-text-primary-inverse, 5%) !default;
+
+// >>>>>>>>> Disabled Clickables
+$component-clickable-disabled-background: $color-feedback-action-disabled !default;
+$component-clickable-disabled-border: $color-feedback-action-disabled !default;
+$component-clickable-disabled-text: $color-text-primary !default;
+
+$component-clickable-disabled-background-hover: lighten($color-feedback-action-disabled, 5%) !default;
+$component-clickable-disabled-border-hover: lighten($color-feedback-action-disabled, 5%) !default;
+$component-clickable-disabled-text-hover: $color-text-primary !default;
+
+$component-clickable-disabled-background-active: darken($color-feedback-action-disabled, 5%) !default;
+$component-clickable-disabled-border-active: darken($color-feedback-action-disabled, 5%) !default;
+$component-clickable-disabled-text-active: darken($color-text-primary, 5%) !default;
+
+// >>>>>>>>> Positive Clickables
+$component-clickable-positive-background: $color-feedback-action-positive !default;
+$component-clickable-positive-border: $color-feedback-action-positive !default;
+$component-clickable-positive-text: $color-text-primary-inverse !default;
+
+$component-clickable-positive-background-hover: lighten($color-feedback-action-positive, 5%) !default;
+$component-clickable-positive-border-hover: lighten($color-feedback-action-positive, 5%) !default;
+$component-clickable-positive-text-hover: $color-text-primary-inverse !default;
+
+$component-clickable-positive-background-active: darken($color-feedback-action-positive, 5%) !default;
+$component-clickable-positive-border-active: darken($color-feedback-action-positive, 5%) !default;
+$component-clickable-positive-text-active: darken($color-text-primary-inverse, 5%) !default;
+
+// >>>>>>>>> Negative Clickables
+$component-clickable-negative-background: $color-feedback-action-negative !default;
+$component-clickable-negative-border: $color-feedback-action-negative !default;
+$component-clickable-negative-text: $color-text-primary-inverse !default;
+
+$component-clickable-negative-background-hover: lighten($color-feedback-action-negative, 5%) !default;
+$component-clickable-negative-border-hover: lighten($color-feedback-action-negative, 5%) !default;
+$component-clickable-negative-text-hover: $color-text-primary-inverse !default;
+
+$component-clickable-negative-background-active: darken($color-feedback-action-negative, 5%) !default;
+$component-clickable-negative-border-active: darken($color-feedback-action-negative, 5%) !default;
+$component-clickable-negative-text-active: darken($color-text-primary-inverse, 5%) !default;
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////// Stop Reading we aren't using or considering any of this yet////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /*
 negative space is portions of the site/page left unmarkedn or the space around or between components
 */
-$color-negative-space: $color-base !default;
-$color-negative-space-invert: #000 !default;
+// $color-negative-space: $color-base !default;
+// $color-negative-space-invert: #000 !default;
 
-// links
-$color-link: $color-accent;
-$color-link-hover: rgba($color-accent, .5); // (!) meh whatever... what would we do here.
-$color-link-visited: darken($color-accent, 20%);
+// // links
+// $color-link: $color-accent;
+// $color-link-hover: rgba($color-accent, .5); // (!) meh whatever... what would we do here.
+// $color-link-visited: darken($color-accent, 20%);
 
-// messages
-// (!) is this message text or background or either?
-$color-message: $color-base;
-$color-success: $color-feedback-positive;
-$color-warning: $color-feedback-negative;
-$color-important: $color-primary;
-$color-notice: $color-feedback-neutral;
 
-// content, highlight and error
-// (!) what's content? is the similar to message
-$color-content-background: $color-base !default;
-$color-content-border: $color-secondary !default;
-$color-content-text: $color-text-content !default;
-$color-content-icon: $color-accent !default;
+// // messages
+// // (!) is this message text or background or either?
+// $color-message: $color-base;
+// $color-success: $color-feedback-positive;
+// $color-warning: $color-feedback-negative;
+// $color-important: $color-primary;
+// $color-notice: $color-feedback-neutral;
 
-$color-highlight-background: $color-feedback-positive !default;
-$color-highlight-border: $color-feedback-positive !default;
-$color-highlight-text: $color-text-content !default;
-$color-highlight-icon: $color-text-content !default;
+// // content, highlight and error
+// // (!) what's content? is the similar to message
+// $color-content-background: $color-base !default;
+// $color-content-border: $color-secondary !default;
+// //$color-content-text: $color-text-content !default;
+// $color-content-icon: $color-accent !default;
 
-$color-error-background: $color-feedback-negative !default;
-$color-error-border: $color-feedback-negative !default;
-$color-error-text: $color-text-content !default;
-$color-error-icon: $color-text-content !default;
+// $color-highlight-background: $color-feedback-positive !default;
+// $color-highlight-border: $color-feedback-positive !default;
+// $color-highlight-text: $color-text-content !default;
+// $color-highlight-icon: $color-text-content !default;
 
-// clickable does not include anchors
-// includes tabs, dropdowns, buttons, range slider handles
-$color-clickable-default-background: $color-base !default;
-$color-clickable-default-border: $color-base !default;
-$color-clickable-default-text: $color-base !default;
-$color-clickable-default-icon: $color-base !default;
-
-$color-clickable-active-background: $color-base !default;
-$color-clickable-active-border: $color-base !default;
-$color-clickable-active-text: $color-base !default;
-$color-clickable-active-icon: $color-base !default;
-
-$color-clickable-hover-background: $color-base !default;
-$color-clickable-hover-border: $color-base !default;
-$color-clickable-hover-text: $color-base !default;
-$color-clickable-hover-icon: $color-base !default;
+// $color-error-background: $color-feedback-negative !default;
+// $color-error-border: $color-feedback-negative !default;
+// $color-error-text: $color-text-content !default;
+// $color-error-icon: $color-text-content !default;

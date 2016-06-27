@@ -7,17 +7,21 @@ $color-base: $color-white !default; //used the most such as the site background
 $color-primary: $color-charcoal !default; //the most used branding color
 $color-secondary: $color-silver !default;  //the second most used branding color
 $color-accent: $color-pewter !default;  //highlights actionable/important items
+// Text
+$color-text-accent: $color-charcoal;
+$color-text-secondary: $color-pewter;
+$color-text-primary: $color-charcoal;
+$color-text-primary-inverse: $color-white;
+
 
 //----- Interface Feedback Specific -----//
 //standard interface element feedback variables
-$color-feedback-primary: $color-white !default;
-$color-feedback-disabled: $color-silver !default;
-$color-feedback-neutral: $color-pewter !default; //shows interaction point - provides neutral info that does not influnce a user with color
-$color-feedback-positive: $color-ocean !default; //positive feedback, success msg & yes btns
-$color-feedback-negative: $color-apple !default; //negative feedback - fail msg & no btns
+$color-feedback-action-primary: $color-charcoal !default;
+$color-feedback-action-disabled: $color-silver !default;
+$color-feedback-action-neutral: $color-pewter !default; //shows interaction point - provides neutral info that does not influnce a user with color
+$color-feedback-action-positive: $color-moss !default; //positive feedback, success msg & yes btns
+$color-feedback-action-negative: $color-pomegranate !default; //negative feedback - fail msg & no btns
 
-
-
-$color-text-heading: $color-charcoal;
-$color-text-subheading: $color-pewter;
-$color-text-content: $color-charcoal;
+$color-feedback-info-neutral: $color-lily !default; //shows interaction point - provides neutral info that does not influnce a user with color
+$color-feedback-info-positive: $color-sakura !default;
+$color-feedback-info-negative: $color-snowpea !default;
