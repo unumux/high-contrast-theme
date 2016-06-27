@@ -116,12 +116,12 @@ p {
   margin-bottom: emRhythm($base-line-multi);
   padding-top: 0;
   padding-bottom: 0;
-  max-width: emRhythm(96);
+  max-width: emRhythm(200);
 
   @media (min-width: 43.75em) {
-    @if $paragraph-justify {
-      text-align: justify;
-    }
+    // @if $paragraph-justify {
+    //   text-align: justify;
+    // }
   }
 }
 

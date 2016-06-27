@@ -32,7 +32,6 @@ $component-content-positive-background: $color-feedback-info-positive !default;
 $component-content-positive-border: $color-feedback-info-positive !default;
 $component-content-positive-text: $color-text-primary !default;
 
-
 // >>>>>>>>> Negative Feedback Content Containers
 $component-content-negative-background: $color-feedback-info-negative !default;
 $component-content-negative-border: $color-feedback-info-negative !default;
@@ -46,17 +45,17 @@ $component-content-negative-text: $color-text-primary !default;
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 // >>>>>>>>> Primary Clickables
-$component-clickable-background: $color-feedback-action-primary !default;
-$component-clickable-border: $color-feedback-action-primary !default;
-$component-clickable-text: $color-text-primary-inverse !default;
+$component-clickable-primary-background: $color-feedback-action-primary !default;
+$component-clickable-primary-border: $color-feedback-action-primary !default;
+$component-clickable-primary-text: $color-text-primary-inverse !default;
 
-$component-clickable-background-hover: lighten($color-feedback-action-primary, 5%) !default;
-$component-clickable-border-hover: lighten($color-feedback-action-primary, 5%) !default;
-$component-clickable-text-hover: $color-text-primary-inverse !default;
+$component-clickable-primary-background-hover: lighten($color-feedback-action-primary, 5%) !default;
+$component-clickable-primary-border-hover: lighten($color-feedback-action-primary, 5%) !default;
+$component-clickable-primary-text-hover: $color-text-primary-inverse !default;
 
-$component-clickable-background-active: darken($color-feedback-action-primary, 5%) !default;
-$component-clickable-border-active: darken($color-feedback-action-primary, 5%) !default;
-$component-clickable-text-active: darken($color-text-primary-inverse, 5%) !default;
+$component-clickable-primary-background-active: darken($color-feedback-action-primary, 5%) !default;
+$component-clickable-primary-border-active: darken($color-feedback-action-primary, 5%) !default;
+$component-clickable-primary-text-active: darken($color-text-primary-inverse, 5%) !default;
 
 // >>>>>>>>> Neutral Clickables
 $component-clickable-neutral-background: $color-feedback-action-neutral !default;
