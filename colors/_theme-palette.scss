@@ -1,21 +1,24 @@
 // =============================================================================
-// main palette //middle colors
+//      THEME PALATTE
+//      theme specific variables set to descriptive color variables
 // =============================================================================
 
-//----- Theme Specific -----//
 $color-base: $color-white !default; //used the most such as the site background
 $color-primary: $color-charcoal !default; //the most used branding color
 $color-secondary: $color-silver !default;  //the second most used branding color
 $color-accent: $color-pewter !default;  //highlights actionable/important items
-// Text
-$color-text-accent: $color-charcoal;
-$color-text-secondary: $color-pewter;
-$color-text-primary: $color-charcoal;
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+//      Text Specific
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+$color-text-accent: $color-charcoal; //heading
+$color-text-secondary: $color-pewter; //subheading
+$color-text-primary: $color-charcoal; //content
 $color-text-primary-inverse: $color-white;
 
-
-//----- Interface Feedback Specific -----//
-//standard interface element feedback variables
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+//      Standard Interface Element Feedback Specific
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 $color-feedback-action-primary: $color-charcoal !default;
 $color-feedback-action-disabled: $color-silver !default;
 $color-feedback-action-neutral: $color-pewter !default; //shows interaction point - provides neutral info that does not influnce a user with color
@@ -23,5 +26,5 @@ $color-feedback-action-positive: $color-moss !default; //positive feedback, succ
 $color-feedback-action-negative: $color-pomegranate !default; //negative feedback - fail msg & no btns
 
 $color-feedback-info-neutral: $color-lily !default; //shows interaction point - provides neutral info that does not influnce a user with color
-$color-feedback-info-positive: $color-sakura !default;
-$color-feedback-info-negative: $color-snowpea !default;
+$color-feedback-info-positive: $color-snowpea !default;
+$color-feedback-info-negative: $color-sakura !default;

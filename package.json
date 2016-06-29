@@ -1,5 +1,5 @@
 {
-  "name": "theme-enterprise-high-contrast",
+  "name": "@unumux/theme-enterprise-high-contrast",
   "version": "1.0.0",
   "description": "the high contrast theme with enterprise fonts",
   "main": "index.js",
