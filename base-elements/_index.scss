@@ -144,6 +144,11 @@ strong {
   font-weight: bold;
 }
 
+button,
+input {
+  font-size: $base-font-size;
+}
+
 blockquote {
   margin-top: emRhythm(4);
   margin-bottom: emRhythm(4);
