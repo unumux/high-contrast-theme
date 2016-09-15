@@ -15,13 +15,25 @@ $component-text-subheading-inverse: $color-text-secondary-inverse !default;
 $component-text-content-inverse: $color-text-primary-inverse !default;
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+//      LINKS
+//      Navigation
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+$component-main-nav-links: $color-text-action !default;
+$component-main-nav-links-inverse: $color-text-action-inverse !default;
+
+$component-main-nav-links-border: $color-primary !default;
+$component-main-nav-links-border-inverse: $color-white !default;
+
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 //      CONTENT CONTAINER
 //      headers, dialogues/modals
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 // >>>>>>>>> Primary Content Containers
 $component-content-background: $color-base !default;
-$component-content-border: $color-base !default;
+$component-content-border: $color-primary !default;
 $component-content-text: $component-text-content !default;
 
 // >>>>>>>>> Accent Content Containers
