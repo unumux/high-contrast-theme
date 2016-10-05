@@ -15,12 +15,22 @@ $color-text-accent: $color-charcoal; //heading
 $color-text-secondary: $color-pewter; //subheading
 $color-text-primary: $color-charcoal; //content
 
-$color-text-action: $color-moss;
-$color-text-action-inverse: $color-white;
+$color-text-accent-inverse: $color-white; //heading
+$color-text-secondary-inverse: $color-white; //subheading
+$color-text-primary-inverse: $color-white; //content
 
-$color-text-accent-inverse: $color-white;
-$color-text-secondary-inverse: $color-white;
-$color-text-primary-inverse: $color-white;
+//links
+$color-text-action: $color-moss;
+$color-text-action-hover: $color-pomegranate;
+$color-text-action-active: $color-pewter;
+
+$color-text-action-inverse: $color-white;
+$color-text-action-inverse-hover: $color-charcoal;
+$color-text-action-inverse-active: $color-pewter;
+
+$color-text-action-accent: $color-white;
+$color-text-action-accent-hover: $color-silver;
+$color-text-action-accent-active: $color-pewter;
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 //      Standard Interface Element Feedback Specific
