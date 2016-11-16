@@ -27,14 +27,23 @@ $component-main-nav-links-border-inverse: $color-white !default;
 
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-//      CONTENT CONTAINER
-//      headers, dialogues/modals
+//      BASIC CONTENT CONTAINERS
+//      headers, footers, asides
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-// >>>>>>>>> Primary Content Containers
+// >>>>>>>>> Primary Content Container
 $component-content-background: $color-base !default;
 $component-content-border: $color-primary !default;
 $component-content-text: $component-text-content !default;
+
+//>>>>>>>>>> Inverse Content Container
+$component-content-inverse-background: $color-primary !default;
+$component-content-inverse-text: $color-base !default;
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+//      FEEDBACK CONTENT CONTAINERS
+//      alerts, dialogues/modals
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 // >>>>>>>>> Accent Content Containers
 $component-content-accent-background: $color-primary !default;
@@ -51,8 +60,6 @@ $component-content-negative-background: $color-feedback-info-negative !default;
 $component-content-negative-border: $color-feedback-info-negative !default;
 $component-content-negative-text: $color-text-primary !default;
 
-$component-content-inverse-background: $color-feedback-action-positive !default;
-$component-content-inverse-text: $color-base !default;
 
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
