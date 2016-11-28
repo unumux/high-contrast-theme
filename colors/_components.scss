@@ -38,9 +38,13 @@ $component-content-background: $color-base !default;
 $component-content-border: $color-primary !default;
 $component-content-text: $component-text-content !default;
 
-//>>>>>>>>>> Inverse Content Container
+//>>>>>>>>>> Primary Inverse Content Container
 $component-content-inverse-background: $color-primary !default;
 $component-content-inverse-text: $color-base !default;
+
+// >>>>>>>>> Secondary Content Container
+$component-content-secondary-background: $color-secondary !default;
+
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 //      FEEDBACK CONTENT CONTAINERS
