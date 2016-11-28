@@ -224,3 +224,24 @@ hr {
   border-top-style: solid;
   @include rhythmBorderTop(1px, 4);
 }
+
+/*a {
+  color: $component-text-link;
+
+  &:hover {
+    color: $component-text-link-inverse;
+    background-color: $component-content-inverse-background;
+  }
+
+  &:focus {
+    color: $component-text-link-inverse;
+    background-color: $component-content-inverse-background;
+
+  }
+
+  &:active {
+    color: $component-text-link-inverse;
+    background-color: $component-content-inverse-background;
+
+  }
+}*/
