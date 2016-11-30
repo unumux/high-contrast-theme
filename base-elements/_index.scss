@@ -225,7 +225,7 @@ hr {
   @include rhythmBorderTop(1px, 4);
 }
 
-/*a {
+a {
   color: $component-text-link;
 
   &:hover {
@@ -244,4 +244,4 @@ hr {
     background-color: $component-content-inverse-background;
 
   }
-}*/
+}
